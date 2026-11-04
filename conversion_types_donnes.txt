@@ -1,0 +1,6 @@
+nombre="100"
+
+nombre_converti=int(nombre)
+
+print(nombre_converti)
+print(type(nombre_converti))

@@ -1,8 +1,10 @@
 while True:
     note = int(input("Entrer une note : "))
-    if note >= 16 and note <= 17 :
-     print (" passage autorisé ")
-    else :
-        print("pas de passage ")
-
-        print("--------------------------------------")
+    if note >= 18 and note <= 20 :
+     print (" TRES BIEN ")
+    if note >= 16 and note <=17:
+        print("BIEN ")
+    if note >=10:   
+        print("PASSABLE ")
+    else:
+       print("ECHEC")

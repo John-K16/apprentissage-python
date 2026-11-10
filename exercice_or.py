@@ -1,15 +1,8 @@
-while True:
-    note = int(input("Entrer une note : "))
-    if note < 0  or note > 20 :
-     print (" NOTE INVALID ")
-    elif note >= 18 and note <= 20:
-       print(" TRES BIEN ")
-    elif note >= 16 and note <=17:
-        print("BIEN ")
-    elif note >=10:   
-        print("PASSABLE ")
-    else:
-       print("ECHEC")
-
-
-       print("---------------------------------------------")
+for i in range(3):
+    jour = input("Entrer le jour :").strip().upper()
+    jours_feries = ["SAMEDI", "DIMANCHE"]
+    if jour in jours_feries :
+        print("C'est un jour férié")
+    else :
+        print("Le marché est opérationnel")
+        print("-----------------------------------------------")

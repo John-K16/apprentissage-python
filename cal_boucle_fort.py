@@ -1,5 +1,5 @@
-nombre = 6
-for i in range(6):
-    tour = i + 1
+nombre =10
+for t in range (8):
+    tour = t + 1
     total = nombre ** tour
-    print(f"TOUR  {tour} : {nombre} puissance {tour} = {total}")
+    print(f" TOUR : {tour} {nombre} puissance de {tour} est : {total}")

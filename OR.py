@@ -1,6 +1,6 @@
 for i in range(5):
     filiale = ("KMTA Cloud")
-    elements= ["ELEMENT1," "ELEMENT2", "ELEMENT3", "ELEMENT4"]
+    elements= ["ELEMENT1", "ELEMENT2", "ELEMENT3", "ELEMENT4"]
     elements.extend(["ELEMENT5", "ELEMENT6", "ELEMENT7"])
     villes_requises = ["KINSHASA", "KANANGA", "KINDU"]
 
@@ -12,10 +12,9 @@ for i in range(5):
     if element in elements or ville in villes_requises :
         print(f"La filiale du KMTA GROUP, {filiale} vous souhaite une bonne utilisation")
         
-        print("-------------------------------------------------")
-    elif "ELEMENT2" in elements :
-            elements.remove("ELEMENT2")
+        print("------------------------------------------------")
+   
     else :
-        print("Vous n'etes pas autoriser d'utiliser ce servicre")
+        print("Vous n'etes pas autoriser d'utiliser ce service!")
 
-        print('-----------------------------------------------------------')
+        print("------------------------------------------------")

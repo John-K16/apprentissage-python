@@ -16,4 +16,9 @@ while nombre_candidats_retenus < nombre_postes :
     print(f"LISTE DE CADINDATS RETENUS {sont_retenus}")
     print(f"NOMBRE DES CANDIDATS RETENUS : {nombre_candidats_retenus}")
 
-    print("----------------------------------------------------------------------------------------------------------------------------------")
+    print("---------------------------------------------------------------------------------------------------------------")
+for numero, nom in enumerate(sont_retenus, start=1):
+    # on affiche la liste des candidats retenus.
+    print(f"{numero}. {nom}")
+
+    print("---------------------------------------------------------------------------------------------------------------")
